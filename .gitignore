@@ -1,0 +1,15 @@
+# Activity data is stored under XDG directories, never in this repository.
+# These patterns only protect against accidental local copies.
+events-*.csv
+*.log
+*.pid
+*.ready
+*.lock
+libexec/
+build/
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*.swo
+*~
